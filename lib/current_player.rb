@@ -1,4 +1,4 @@
-require_relative lib/current_player.rb
+require_relative ../current_player.rb
 
 def turn_count(board)
   int turns = 0
