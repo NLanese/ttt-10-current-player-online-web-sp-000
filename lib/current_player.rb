@@ -1,5 +1,3 @@
-require_relative '../current_player.rb'
-
 def turn_count(board)
   int turns = 0
   board.each do |val|
