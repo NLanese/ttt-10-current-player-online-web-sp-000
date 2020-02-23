@@ -3,8 +3,8 @@ def turn_count(board)
   board.each do |val|
     if (board[val] == " " || board[val] == "")
       turns = turns
-    else 
+    else
       turns += 1
     end
-  end  
+  end
   
